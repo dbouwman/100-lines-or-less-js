@@ -31,7 +31,8 @@ function loadEntities() {
     $.getJSON(mongoUrl, function (data) {//get things from mongo
         _.each(data, function (item) {   //loop the array
             item.geom = new esri.geometry.Point(item.geom.x, item.geom.y, new esri.SpatialReference({ wkid: 102100 }));
-            upsertEntityGraphic(item);});
+            upsertEntityGraphic(item);
+        });
     });
 }
 function getGraphicById(id){
@@ -43,10 +44,10 @@ function upsertEntityGraphic(entity, broadcast) {
     entity.id == connection.id ? markerName = 'human-me' : markerName = entity.icon; //if it's the user, show the blue icon
     var sym = new esri.symbol.PictureMarkerSymbol('http://geozombies.azurewebsites.net/content/img/' + markerName + '.png', 16, 16);
     var graphic = getGraphicById(entity.id);
-    if (graphic) {
+    if (graphic) {//console.log('updating graphic ' + entity.geom.x + ', ' + entity.geom.y);
         graphic.geometry = entity.geom; //update the location
         graphic.setSymbol(sym);//set the symbol
-    } else {
+    } else {//console.log('adding graphic ' + entity.geom.x + ', ' + entity.geom.y + ' entity ' + entity.icon);
         map.graphics.add(new esri.Graphic(new esri.geometry.Point(entity.geom.x, entity.geom.y,
             new esri.SpatialReference({ wkid: 102100 })), sym, { 'entity': entity }));}
     if (broadcast) broadcastEntityUpdate(entity);
@@ -63,8 +64,7 @@ function getGraphicsWithinDistance(origin, distance, icon) {
     var itemsToReturn = [];
     _.each(map.graphics.graphics, function (item) {//loop the graphics
         var d = esri.geometry.getLength(origin, item.geometry);//compare user's location
-        if (d < distance && item.attributes['entity'].icon == icon)
-            itemsToReturn.push(item);
+        if (d < distance && item.attributes['entity'].icon == icon) itemsToReturn.push(item);
     });
     return itemsToReturn;
 }
@@ -74,13 +74,13 @@ function broadcastEntityUpdate(entity) {
         $.ajax({ url: mongoUrl + '&u=true&q={"id":"' + entity.id +'"}', data: JSON.stringify(entity), type: "PUT", contentType: "application/json" })
 }
 function recieveEntityUpdate(jsonEntity) {
-    var item = JSON.parse(jsonEntity);//parse back into js object
+    var item = JSON.parse(jsonEntity);//parse back into js object    console.log('recieved entity...')
     item.geom = new esri.geometry.Point(item.geom.x, item.geom.y, new esri.SpatialReference({ wkid: 102100 }));
     upsertEntityGraphic(item,false);
 }
 function updateUserLocation(position) {//$('#status').text('gps ' + (++gpsCount)); console.log('GPS ' + gpsCount);
     var pt = esri.geometry.geographicToWebMercator(new esri.geometry.Point(position.coords.longitude, position.coords.latitude));
-    if (getGraphicsWithinDistance(pt, 200, 'zombie').length < 10) spawnZombies(5, pt);//create 5 new zombies near the user
+    if (getGraphicsWithinDistance(pt, 200, 'zombie').length < 20) spawnZombies(5, pt);//create 5 new zombies near the user
     usr.geom = pt;
     checkForAttacks();
     connection.send(JSON.stringify(usr));//send user to other players
@@ -89,11 +89,12 @@ function updateUserLocation(position) {//$('#status').text('gps ' + (++gpsCount)
 }
 function spawnZombies(count, location) {
     for (i = 0; i <= count; i++) {
-        var z = EntityFactory(+new Date(), 'zombie', randomNearPoint(location.x, location.y, 50));
-        upsertEntityGraphic(z, true);}
+        var z = EntityFactory(+new Date(), 'zombie', randomNearPoint(location.x, location.y, 40));
+        upsertEntityGraphic(z, true);
+    }
 }
 function randomNearPoint(x, y, dist) {
-    var newPoa = [x, y].map(function (p) { (Math.random() * (2 * dist) + (p - dist)).toFixed(2) * 1 });
+    var newPoa = [x, y].map(function (p) { return (Math.random() * (2 * dist) + (p - dist)).toFixed(2) * 1; });
     return new esri.geometry.Point(newPoa[0], newPoa[1], new esri.SpatialReference({ wkid: 102100 }));
 }
 function showMessage(msg) {$('#notice').text(msg).fadeIn(100).fadeOut(500);}
