@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="http://localhost" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+  <channel>
+		<title>Biergärten München GeoRSS Feed</title>
+		<link>http://www.biergärtenmünchen.de/Hauptseite</link>
+		<atom:link rel="self" href="../beerGeoRSS/data/bier_georss.xml" />
+		<item>
+			<title>Augustiner-Keller</title>
+			<link>http://www.augustinerkeller.de/</link>
+			<description>Maß Hell: 7,50 €</description>
+			<category>7.50</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.143379 11.551383</georss:point>
+		</item>
+		<item>
+			<title>Chinesischer Turm</title>
+			<link>http://www.chinaturm.de/</link>
+			<description>Maß Hell: 7,00 €</description>
+			<category>7.00</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.152446 11.592190</georss:point>
+		</item>
+		<item>
+			<title>Zum Flaucher</title>
+			<link>http://www.zum-flaucher.de/</link>
+			<description>Maß Hell: 6,90 €</description>
+			<category>6.90</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.108541 11.557257</georss:point>
+		</item>
+		<item>
+			<title>Fasanerie</title>
+			<link>http://www.neue-fasanerie.de/</link>
+			<description>Maß Hell: 6,60 €</description>
+			<category>6.60</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.173156 11.493222</georss:point>
+		</item>
+		<item>
+			<title>Franziskaner Garten</title>
+			<link>http://www.franziskanergarten.de/</link>
+			<description>Maß Hell: 7,00 €</description>
+			<category>7.00</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.109284 11.670409</georss:point>
+		</item>
+		<item>
+			<title>Viktualienmarkt</title>
+			<link>http://www.biergarten-viktualienmarkt.de</link>
+			<description>Maß Hell: 6,80 €</description>
+			<category>6.80</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.135277 11.576453</georss:point>
+		</item>
+		<item>
+			<title>Leiberheim</title>
+			<link>http://www.leiberheim.de</link>
+			<description>Maß Hell: 6,70 €</description>
+			<category>6.70</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.078907 11.672023</georss:point>
+		</item>
+		<item>
+			<title>Prinzregent Garten</title>
+			<link>http://www.prinzregentgarten.de</link>
+			<description>Maß Hell: 6,70 €</description>
+			<category>6.70</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.140591 11.468747</georss:point>
+		</item>
+		<item>
+			<title>Laimer's</title>
+			<link>http://www.laimers.com</link>
+			<description>Maß Hell: 6,50 €</description>
+			<category>6.50</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.141153 11.492364</georss:point>
+		</item>
+		<item>
+			<title>Hirschau</title>
+			<link>http://www.hirschau-muenchen.de</link>
+			<description>Maß Hell: 7,20 €</description>
+			<category>7.20</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.162161 11.602522</georss:point>
+		</item>
+		
+		<item>
+			<title>Paulaner Nockherberg</title>
+			<link>http://www.nockherberg.com</link>
+			<description>Maß Hell: 7,80 €</description>
+			<category>7.80</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.1213 11.582529</georss:point>
+		</item>
+		<item>
+			<title>Hofbräukeller</title>
+			<link>http://www.hofbraeukeller.de</link>
+			<description>Maß Hell: 7,00 €</description>
+			<category>7.00</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.134684 11.594832</georss:point>
+		</item>
+		<item>
+			<title>Schießstätte Allach</title>
+			<link>http://www.schiessstaette-allach.de/</link>
+			<description>Maß Hell: 6,00 €</description>
+			<category>6.00</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.195806 11.4561</georss:point>
+		</item>
+		<item>
+			<title>Gasthaus Siebenbrunn</title>
+			<link>http://www.biergarten-siebenbrunn.de</link>
+			<description>Maß Hell: 6,20 €</description>
+			<category>6.20</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.099888 11.560384</georss:point>
+		</item>
+		<item>
+			<title>Heimstettener See</title>
+			<link>http://www.heimstettenersee.de</link>
+			<description>Maß Hell: 6,00 €</description>
+			<category>6.00</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.157904 11.737544</georss:point>
+		</item>
+		<item>
+			<title>Zum Aumeister</title>
+			<link>http://www.aumeister.de</link>
+			<description>Maß Hell: 7,20 €</description>
+			<category>7.20</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.185826 11.61994</georss:point>
+		</item>
+		<item>
+			<title>Heide-Volm</title>
+			<link>http://www.heidevolm.de</link>
+			<description>Maß Hell: 6,60 €</description>
+			<category>6.60</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.104159 11.414363</georss:point>
+		</item>
+		<item>
+			<title>Hirschgarten</title>
+			<link>http://www.hirschgarten.de</link>
+			<description>Maß Hell: 6,30 €</description>
+			<category>6.30</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.1494 11.511164</georss:point>
+		</item>
+		<item>
+			<title>Harlachinger Einkehr</title>
+			<link>http://www.harlachinger-einkehr.de</link>
+			<description>Maß Hell: 6,50 €</description>
+			<category>6.50</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.095848 11.55745</georss:point>
+		</item>
+		<item>
+			<title>Hopfengarten</title>
+			<link>http://www.hopfen-garten.de</link>
+			<description>Maß Hell: 6,80 €</description>
+			<category>6.80</category>
+			<source url="http://www.biergärtenmünchen.de/Hauptseite">Biergärten München</source>
+			<georss:point>48.125583 11.526626</georss:point>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,265 @@
+html, body, iframe {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial; 
+} 
+iframe { display:block; width:100%; border:none; }
+p {
+    margin:0px;
+    padding: 0px
+}
+#mainWindow {
+	height: 100%;
+	width: 100%;
+}
+#titleDiv {
+    float: left;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+#titleDiv h2{
+    float: left;
+    margin:0px;
+    font-size:30px;
+}
+#authorDiv {
+    float: left;   
+}
+#author {
+    position: absolute;
+    bottom: 12px;
+    font-size:14px;
+    padding-left: 10px;
+}   
+#header {
+    background-image: url('../images/header.png');
+    background-color: #e2e2e2;
+    color: #4d4d4d;
+    padding: 0px;
+}
+#header a {
+    color: #156bbb;
+    text-decoration: none
+}
+#header a:hover {
+    color: #156bbb;
+    text-decoration: underline
+}
+#headerBar {
+    height:4px;
+    width:100%;
+    background-color:#a5a5a5;
+    padding:0px;
+}
+#map {margin: 0; padding: 0}
+
+
+/* position ESRI geocoder widget */
+#search {
+    display: block;
+    left: 74px;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+}
+
+/* position geolocate button */
+#geolocate {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    left: 16px;
+    height: 41px;
+    width: 41px;
+    background: url('../images/geolocate2x.png') no-repeat;
+    background-size: 100%;
+}
+
+/* container for link to full wiki page */
+#pLink {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}
+#pLink a {
+    text-decoration: none;
+    color: #3978ff
+}
+
+
+
+
+/*********************************************/
+/*           Replace ESRI Styles             */
+/*********************************************/
+
+
+/* make mobile popup wider to fit long titles */
+.esriPopupMobile .sizer {
+    width: 270px;
+}
+
+/* change color of popup */
+.esriPopupMobile .titlePane {
+    background: none repeat scroll 0 0;
+    background-color: #1f1f1f;
+    height: 82px;
+    background-image: -webkit-linear-gradient(#292929 0%, #0a0a0a 100%);
+    background-image: -moz-linear-gradient(center bottom, #0a0a0a 0%, #292929 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#0a0a0a');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#0a0a0a')";
+}
+
+/* must set mobile popup containers at 100% height so iframe content will load at 100% height */
+.esriMobileInfoView.esriMobilePopupInfoView {
+    height: 100%;
+}
+.esriMobileInfoView.esriMobilePopupInfoView div {
+	height:100%;
+}
+.esriMobileInfoView.esriMobilePopupInfoView div div {
+	height:100%;
+}
+
+/* position popup text that shows number of items */
+.footer {
+    left: 104px;
+    position: absolute;
+    top: 62px;
+}
+
+/* use custom pointer that matches new color scheme */
+.esriPopupMobile .pointer.bottom {
+    background: url('../images/pointerbottom_custom.png') no-repeat;
+}
+
+/* use custom pointer that matches new color scheme */
+.esriPopupMobile .pointer.top {
+    background: url('../images/pointertop_custom.png') no-repeat;
+}
+
+/* use custom icon made for retina displays */
+.esriPopupMobile .titleButton.close {
+    background: url('../images/whitex2x.png') no-repeat;
+    background-size: 100%;
+    left: 6px;
+}
+
+/* use custom icon made for retina displays */
+.esriPopupMobile .titleButton.arrow {
+    background: url('../images/whiter2x.png') no-repeat;
+    background-size: 100%;
+    right: 6px;
+}
+
+/* use custom icon made for retina displays */
+.esriPopupMobile .titleButton.next {
+    background: url('../images/rightlongarrow2x.png') no-repeat;
+    background-size: 100%;
+    height: 16px;
+}
+
+/* use custom icon made for retina displays */
+.esriPopupMobile .titleButton.prev {
+    background: url('../images/leftlongarrow2x.png') no-repeat;
+    background-size: 100%;
+    height: 16px;
+}
+
+/* position prev and next arrows due to resizing mobile popup */
+.esriPopupMobile .titleButton.prev,.esriPopupMobile .titleButton.next {
+    top: 62px;
+}
+
+/* allow more text in the popup and align center */
+.esriPopupMobile .titlePane .title {
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+
+/* change color scheme of navigation bar to match mobile popup */
+.esriMobileNavigationBar {
+    background-color: #1f1f1f;
+    background-image: -webkit-linear-gradient(#3f3f3f 0%, #0a0a0a 100%);
+    background-image: -moz-linear-gradient(center bottom, #0a0a0a 0%, #3f3f3f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f3f3f', endColorstr='#0a0a0a');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f3f3f', endColorstr='#0a0a0a')";
+}
+
+
+
+
+
+/*********************************************/
+/*   CSS3 animation for geolocation marker   */
+/*********************************************/
+
+@-webkit-keyframes pulse { 
+    0% {opacity: 1.0}
+    40% {opacity: .40; }
+    100% {opacity: 1.0;}
+}
+
+@-moz-keyframes pulse { 
+    0% {opacity: 1.0}
+    40% {opacity: .40; }
+    100% {opacity: 1.0;}
+}
+
+#map_graphics_layer {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: pulse;
+}
+
+
+
+
+/*********************************************/
+/*    responsive design for small screens    */
+/*********************************************/
+
+@media only screen and (max-width: 480px) {
+
+#titleDiv {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#titleDiv h2{
+    font-size:13px;
+}
+#author {
+    font-size:10px;
+    bottom: 4px;
+    padding-left: 5px;
+}
+
+#headerBar {
+    display: none;
+}
+
+.esriSimpleSliderTL {
+    top: 15px;
+    left: 15px;
+}
+
+#search {
+    top: 15px;
+    left: 69px;
+}
+
+#geolocate {
+    left: 11px;
+}
+
+}

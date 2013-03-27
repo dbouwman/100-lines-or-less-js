@@ -1,0 +1,31 @@
+.invisible {
+   display:none
+}
+
+.summary {
+  z-index:500;
+  background-color:#adf;
+  opacity: 0.9;
+  border: solid 2px #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -55px;
+  width: 300px;
+  height: 110px;
+  margin-left: -150px;
+}
+
+.help {
+  z-index:500;
+  background-color:#dea;
+  opacity: 0.9;
+  border: solid 2px #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -70px;
+  width: 400px;
+  height: 140px;
+  margin-left: -200px;
+}

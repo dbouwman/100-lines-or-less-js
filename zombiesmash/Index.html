@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoZombies!</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Bootstrap -->
+    
+    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+     <link href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css" rel="stylesheet" type="text/css" >
+     <style>
+         .navbar {font-family: 'Six Caps';}
+     #map {position: absolute;width:100%;top:0;bottom:0;right:0;left:0;margin: 0; padding:0;z-index: -999;}
+     #map_zoom_slider{top:55px;}
+         #notice {
+             position: absolute;
+             width: 100%;
+             bottom: 0;left:0;right:0;
+             background-color:#ff6a00;
+             padding:0;margin:0;
+             font-size: 18px;
+             color:#FFFFFF;
+             text-align:center;
+         }
+         .navbar .brand {
+             font-size:27px;
+         }
+         .small {
+             font-size: 0.9em;font-weight:bold;
+             text-align: center;
+         }
+     </style>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <a class="brand" href="#">Zombie Attack!</a>
+        <a id="status" class="brand" href="#"></a>
+        <ul id="start-ui" class="nav pull-right">
+            <li ><button id="togglePlaying" class="btn btn-success play">Stop</button></li>
+        </ul>
+      </div>
+    </div>
+    <div id="notice" style="display:none;"></div>
+    <div id="map"></div>
+
+<div id="introModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Zombie Alert!</h3>
+  </div>
+  <div class="modal-body">
+        <p>Zombies have been spotted in your area! Use this app to locate and smash them by getting within 10 meters of them.</p>
+    <p class="small">Hacked together in ~100 lines by <a href="http://twitter.com/dbouwman">@dbouwman</a></p>
+    <p class="small">Note: This will gobble up your battery!</p> 
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary play" data-dismiss="modal">Smash Zombies!</button>
+  </div>
+</div>
+
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.signalR-1.0.1.min.js"></script>
+    <script src="./js/underscore-1.4.3.js"></script>
+    <script src="./js/zombiesmash.js"></script>
+    
+  </body>
+</html>

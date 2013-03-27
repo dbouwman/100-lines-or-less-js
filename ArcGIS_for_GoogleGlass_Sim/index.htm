@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" >
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>ArcGIS for Google GLASS</title>
+  <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+  <link rel="stylesheet" href="css/glass.css">
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <script type="text/javascript" src="js/wid_Biz_Stats.js"></script>
+  <script type="text/javascript">
+  	dojo.require("esri.map");
+  	var map;
+  	var myPano;
+	function init_AGS(pLat,pLon) {
+		var options = {basemap:"gray", center:[pLon, pLat], zoom: 15, slider:false};
+  		map = new esri.Map("mapDiv",options);
+		wid_biz_stat.onLoad();
+		wid_biz_stat.sendToServer(pLat,pLon);
+  	}
+ 	function init_GE_StreetView(pLat,pLon) {
+		var panoramaOpt = {
+			position: new google.maps.LatLng(pLat, pLon),
+        	pov: {heading: 0,pitch: 0,zoom: 1},
+        	zoomControl:false,
+        	addressControl:false,
+        	panControl:false};
+    	myPano = new google.maps.StreetViewPanorama(dojo.byId('pano'), panoramaOpt);
+    	google.maps.event.addListener(myPano, 'pano_changed', function(event) {       	
+        	vPoint = myPano.getPosition();
+        	wid_biz_stat.sendToServer(vPoint.lat(),vPoint.lng());
+        	map.centerAt(new esri.geometry.Point(vPoint.lng(),vPoint.lat()));
+    	});
+ 	}
+  	function init_getUserLocation() {
+		if(navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+			init_GE_StreetView(position.coords.latitude,position.coords.longitude);
+			init_AGS(position.coords.latitude,position.coords.longitude);
+			}
+		)}
+		else {
+			init_GE_StreetView(33.83029,-116.54529);
+			init_AGS(33.83029 ,-116.54529);
+		}
+  	}
+ 	dojo.addOnLoad(init_getUserLocation);
+  </script>
+  </head>
+  <body>
+  	<div id="pano">
+  		<div id="mapDiv" style="width:325px; height:200px;">
+  			<div id="biz_info" width="325"></div>
+  		</div>
+  	</div>
+  	<div id="divComment">ArcGIS for Google Glass Demo</div>
+  </body>
+  </html>

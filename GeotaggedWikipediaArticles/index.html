@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <title>Geotagged Wikipedia Articles</title>
+    
+    <!-- load ESRI stylesheets -->
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+    
+    <!-- load custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- load jquery -->
+    <script src="js/jquery-1.8.0.min.js"></script>
+  
+    <!-- load ESRI javascript API -->
+    <script>dojoConfig = { parseOnLoad:true }</script>
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact" type="text/javascript"></script> 
+	
+    <!-- load custom javascript -->
+	<script src="js/ArcGIS.js"></script>
+	
+</head>
+<body>
+    
+    <!-- outer container -->
+    <div id="mainWindow" dojotype="dijit.layout.BorderContainer" gutters="false">
+        
+        <!-- header div -->
+        <div id="header" dojotype="dijit.layout.ContentPane" region="top">
+		    <div id='titleDiv'>
+		        <h2>Geotagged Wikipedia Articles</h2>
+		        <div id="authorDiv">
+		            <div id='author'>by Ryan Stanley</div>
+		        </div>
+            </div>
+            
+        </div>
+        
+        <!-- 4px tall div between header and map -->
+        <div id="headerBar" dojotype="dijit.layout.ContentPane" region="top"></div>	 
+        
+        <!-- map div -->
+        <div id="map" dojotype="dijit.layout.ContentPane" region="center">
+            
+            <!-- ESRI geocoder widget -->
+            <div id="search"></div>
+            
+            <!-- custom geolocate button -->
+            <div id="geolocate" onclick="locate()"></div>
+        
+        </div>
+        
+    </div>
+    
+</body>
+</html>

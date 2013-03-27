@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">   
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>Flight Simulator</title>
+  <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdn.craig.is/js/mousetrap/mousetrap.min.js?88c23"></script>
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact"></script>
+  <link rel="stylesheet" type="text/css" href="css/examples.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/flight-simulator.js"></script>
+</head>
+  <body id="main">
+      <div id="summary" class="summary invisible">
+        <p class="panel">Well done! It took you <span id="result">0</span> seconds to get here.</p>
+      </div>
+      <div id="help" class="help invisible">
+        <p class="panel">Use the 'a' and 'd' keys to turn. <small>You may have to click on the map area in Firefox to make the keyboard events work...</small></p>
+      </div>
+      <div class="panel">
+      <div class="message invisible" id="instructions">Urgent transport of <span id="what"></span> to <span id="where"></span>!</div>
+      <div class="controls"> 
+        <div class="buttons">
+          <button id="start" class="btn btn-primary btn-inverse" onclick="start()">Start</button>
+        </div>
+      </div>
+      <div class="message">Your time: <span id="userMessage" class="user-message">0</span></div>
+    </div>
+
+    <div id="mapDiv"></div>
+  </body>
+</html>

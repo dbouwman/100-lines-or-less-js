@@ -1,0 +1,39 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+	font-family: "Lucida Grande","Seoge UI","Arial",sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+	background-color: #fff;
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#welcomeDiv {
+  z-index:99;
+  background-color:#000000;
+  opacity: 0.9;
+  border: solid 1px black;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: 200px;
+  margin-top: -200px;
+  width: 600px;
+  margin-left: -300px;
+}
+
+h4 {display:inline}
+
+h1,p { 
+  text-align: center;
+}

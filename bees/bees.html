@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9"> 
+    <!--The viewport meta tag is used to improve the presentation and behavior of the samples 
+      on iOS devices-->
+	 
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Honey Bees</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/claro/claro.css"> 
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css"> 
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="img/x-icon">
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+		   <script>var dojoConfig = { parseOnLoad: true };</script>
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/bees.js"></script>
+    <style>.claro .dijitContentPane {padding: 0px;}</style> 
+  </head> 
+  <body class="claro" >
+	<div id="slideout">
+		<div id="clickme" >
+			<div class="tab  trans">
+				<div class="tab_inset">
+					<div class="tab_shaddow"></div>
+					<div id="chevron" class="chevron arrow_flip" ></div>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div id="menu-main" class="z2">
+			  <ul>
+				<li id="killer" class="nav">
+					<a href="#" onclick="layerVisibility(mapLayers[3]);  layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); menuslide('menu-killer'); map.centerAndZoom([-65, -10],3); map.setBasemap('oceans');">
+						<div class="button-text">Killer Bees</div>
+						<div class="next-arrow">
+							<img src="img/arrow-next.png" alt="next">
+						</div>
+					</a>
+				</li>
+				<li id="honey" class="nav">
+					<a href="#" onclick="menuslide('menu-honey'); layerVisibility(mapLayers[1]); layerVisibility(mapLayers[0]); layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); map.centerAndZoom([-82, 40],4);  map.setBasemap('oceans');">
+						<div class="button-text">USA Honey Production</div>
+						<div class="next-arrow">
+							<img src="img/arrow-next.png" alt="next">
+						</div>
+					</a>
+				</li>
+				<li id="beekeepers" class="nav">
+					<a href="#" onclick="menuslide('menu-beekeeper'); layerVisibility(mapLayers[2]); layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); map.centerAndZoom([-111, 39.5],7); map.setBasemap('oceans');">
+						<div class="button-text">Registered Beekeepers</div>
+						<div class="next-arrow">
+							<img src="img/arrow-next.png" alt="next">
+						</div>
+					</a>
+				</li>
+			  </ul>
+			  </br>
+			  <p class="text">
+			  <b>Local Beekeepers</b>
+			  </br></br>
+				Have you ever wondered where that bee in your garden came from?
+				</br></br>
+				This first map shows the placement of several hives submitted by local beekeepers.
+				</br></br>
+				Bees can forage up to 5 miles from their hive, but typically find all they need within a mile radius of their colony.
+				</br></br>
+				The yellow circles around the hives show the typical one mile foraging radius per hive.
+				</p>
+			</div>
+			<div id="menu-killer" class="z0">
+				<div class="nav" onclick="menuback('menu-killer'); layerVisibility(mapLayers[3]); layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); map.centerAndZoom([-111.712, 40.318],12); map.setBasemap('streets');">
+					<div class="button-text">BACK</div>
+					<div class="back-arrow">
+						<img src="img/arrow-back.png" alt="back">
+					</div>
+				</div>
+				</br>
+				  <p><b>Killer BEES</b></p>
+				  </br>
+				  <p class="text">
+				  Africanized bees (killer bees) were created in Brazil in 1957 by scientists attempting to cross-breed with local varieties.  The bees have progressively been traveling north ever since as shown in the map.
+				  </p>
+				  <img align="middle" class="legend" src="img/KillLegend.png" alt="Killer Bees By Year"> 
+			</div>
+			<div id="menu-honey" class="z0">
+				<div class="nav" onclick="menuback('menu-honey'); layerVisibility(mapLayers[1]); layerVisibility(mapLayers[0]); layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); map.centerAndZoom([-111.712, 40.318],12); map.setBasemap('streets');">
+					<div class="button-text">BACK</div>
+					<div class="back-arrow">
+						<img src="img/arrow-back.png" alt="back">
+					</div>
+				</div>  
+				<div title="Pounds per Hive" dojoType="dijit.layout.ContentPane"  >
+					<div id="dashboard">
+					 HONEY PRODUCTION
+					  <div id="dashboardWidgets">
+						<div id="gaugeDiv"></div>
+						<div id="gaugeDiv2"></div>
+					  </div>
+					  Hover/click a state to see the graphs update
+					</div>
+				</div>
+			</div>
+			<div id="menu-beekeeper" class="z0">
+				<div class="nav" onclick="menuback('menu-beekeeper'); layerVisibility(mapLayers[2]); layerVisibility(mapLayers[4]); layerVisibility(mapLayers[5]); map.centerAndZoom([-111.712, 40.318],12); map.setBasemap('streets');">
+					<div class="button-text">BACK</div>
+					<div class="back-arrow">
+						<img src="img/arrow-back.png" alt="back">
+					</div>
+				</div> 
+				</br>
+				<p class="text">
+				<b>Registered beekeepers in Utah (2012)</b>
+				</br></br>			
+				This map shows the number of registered beekeepers in Utah per county.
+				</br></br>
+				Many new beekeepers are not aware that it is required to be registered with the state of Utah.
+				</br></br>
+				For every registered beekeeper on this map there are  many more that are not registered with the state.
+				</p>
+			</div>
+		</div> 
+	</div>
+	<div id="mainWindow" data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline', gutters:false" style="width: 100%; height: 100%; margin: 0;"> 
+		<div id="header" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'top'">
+			<img id="trail" src="img/beetrail.png" alt="Provo"><p id="title">Honey Bees</p>
+		</div>
+        <div id="map" 
+           data-dojo-type="dijit.layout.ContentPane" 
+           data-dojo-props="region:'center'"
+           style="overflow:hidden; width:100%; height:100%; border:1px solid #000; top:60px;"> 
+        </div> 
+    </div> 
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">   
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Leap (Motion) Into ArcGIS</title>
+    <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact"></script>
+    
+    <!-- leap motion js api as of Feb 28, 2013 : https://github.com/leapmotion/leapjs/blob/fa61670a5e81bfacdde2d52aecc6acd136475b5d/leap.js -->
+    <script src="https://raw.github.com/leapmotion/leapjs/fa61670a5e81bfacdde2d52aecc6acd136475b5d/leap.js"></script>
+    
+    <!-- Load my JavaScript and CSS -->
+    <link rel="stylesheet" type="text/css" href="css/leapintoarcgis.css">
+    <script src="js/leapintoarcgis.js"></script>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+    <img id="cdot" src="images/calibration_dot.gif" alt="calibration dot: point at this with your finger."/>
+    <div class="ontopmap">
+      <h2>Leap (Motion) into ArcGIS!</h2>
+      <a class="bigButton" id="btnCalibrate" href="javascript:void(0);">Calibrate Leap Motion</a>
+      <br/>
+      <a class="bigButton" href="http://www.youtube.com/watch?v=_bukuHRwL60" target="_blank">Watch Demo</a>
+      <br/>
+      <h3>Message:</h3>
+      <div id="leapOutput" class="message">&nbsp;</div>
+    </div>
+    
+    <div class="instructionsPanel">
+      <span class="a">
+        <h3>1. Circle: Zoom to Extent</h3>
+        <img class="instructions_image" src="images/Leap_Gesture_Circle.png"/>
+      </span>
+      <span class="b">
+        <h3>2. Tapping/Poking: Center Map</h3>
+        <img class="instructions_image" src="images/Leap_Gesture_Tap.png"/>
+      </span>
+      <span class="a">
+        <h3>3. Swipe (palm down):</h3>
+        <img class="instructions_image" src="images/Leap_Gesture_Swipe.png" style="display:inline-block;"/>
+          <ul style="display:inline-block;margin-top:0px;">
+            <li>1 finger - Pan a little</li>
+            <li>2 fingers - Pan a lot</li>
+            <li>3 fingers - zoom out 1 level</li>
+            <li>4 fingers - zoom out 2 level</li>
+            <li>5 fingers - zoom out 3 level</li>
+          </ul>
+      </span>
+      <span class="b">
+        <h3>4. ProTip: Gestures work off screen!</h3>
+        <img class="instructions_image" src="images/Leap_Screen_Clamp.png"/>
+      </span>
+    </div>
+    <canvas id="canvasLayer" class="overlayCanvas"></canvas>
+    <div class="background noLeap">&nbsp;</div>
+    <div class="popupOuter noLeap">
+      <div class="popupInner">
+        <h1>Leap Motion not detected!</h1>
+        <div style="text-align:left;">
+          <h2>1. You don't have a Leap Motion (seriously!?)</h2>
+          <center>
+            <table style="margin:auto;">
+              <tr>
+                <td><a class="bigButton" href="http://www.youtube.com/watch?v=_bukuHRwL60" target="_blank">Watch Demo</a></td>
+                <td>&nbsp;or&nbsp;</td>
+                <td><a href="https://twitter.com/intent/tweet?text=Hey%20%40ChristopherBupp%2C%20I%20want%20to%20see%20the%20%23LeapMotion%20and%20%23ArcGIS%20demo.%20Let's%20meet%20up!&tw_p=tweetbutton" target="_blank"><img class="contact_image" src="images/contact.png"/></a></td>
+              </tr>
+            </table>
+          </center>
+          <h2>2. This demo currently doesn't work with IE :(</h2>
+          <div style="padding-left:45px;padding-bottom:15px;">
+            <b>Longer Explanation:</b> Currently the <a href="https://github.com/leapmotion/leapjs" target="_blank">LeapMotion javascript API</a>
+            is hosted on Github.  This means that the javascript file being references is returned as 'text/plain'(which IE happily ignores).
+            <br/><br/>
+            Please use Chrome, Firefox, (maybe Safari).  Thanks and have fun!
+          </div>
+        </div>
+        <img class="browser_logo" src="images/chrome.png"/>
+        <img class="browser_logo" src="images/firefox.png"/>
+        <img class="browser_logo" src="images/safari.png"/>
+      </div>
+    </div>
+  </body>
+</html>

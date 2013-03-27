@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>US County Statistics - 100 lines</title>
+	<meta name="author" content="Bryan McIntosh">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+	<link rel="stylesheet" href="css/CountyStats.css" type="text/css" />
+</head>
+<body class="claro">
+    <div id="appLayout" class="webLayout" data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design: 'headline'">
+        <div class="centerPanel" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region: 'center'">
+            <div id="divMap">
+				<div id="thePreciousDetails" class="divHidden">
+					<div align="center">
+						<!-- Add the Selection and Clear selection tools to the interface -->
+						<button id="rdSelectPolys" dojoType="dijit.form.ToggleButton" onclick="selectPolys();" checked="false" title="Interactively select Counties on the map" iconClass="dijitCheckBoxIcon">Select Counties</button>
+						<button id="btnClearSelection" dojoType="dijit.form.Button" onclick="clearSelection();" title="Clear selected Counties and statistics">Reset</button>			
+						<!-- Table to hold Overview statistics and button to toggle details -->
+						<table class="tblOverview">
+							<tr>
+								<td align="center" valign="middle"><span id="lblPop2007"></span></td>
+								<td align="right" rowspan="2"><div id="MoreInfo" onclick="return CollapseExpand()"><img src="images/info-32x32.png" alt="Show/hide details" title="Show/hide details"/></div></td>
+							</tr>
+							<tr>
+								<td align="center" valign="middle">Total population (2007) of selected Counties</td>
+							</tr>
+						</table>
+						<!-- Another table. Crazy, I know. I was on a roll and just decided to keep it rather than DIV it. -->
+						<!-- This table organizes the additional statistics -->
+						<table class="tblDetails">
+							<tr style="border-top: 4px solid #CCC;">
+								<td align="right"># Counties:</td>
+								<td align="left"><span id="lblCounties"></span></td>
+							</tr>
+							<tr>
+								<td align="right">Pop 2000:</td>
+								<td align="left"><span id="lblPop2000"></span></td>
+							</tr>
+							<tr>
+								<td align="right">2000 to 2007 Pop Change:</td>
+								<td align="left"><span id="lblPopChange"></span></td>
+							</tr>
+							<tr style="border-bottom: 2px solid #CCC;">
+								<td align="right">Annual growth rate:</td>
+								<td align="left"><span id="lblGrowthRate"></span>%</td>
+							</tr>
+							<tr><td></td><td></td></tr>
+							<tr style="border-top: 2px solid #CCC;">
+								<td align="right">Sq. Miles:</td>
+								<td align="left"><span id="lblSqMiles"></span></td>
+							</tr>
+							<tr style="border-bottom: 4px solid #CCC;">
+								<td align="right">Pop Density:</td>
+								<td align="left"><span id="lblPopDensity"></span></td>
+							</tr>
+						</table>
+						<div id="DetailNotes">Population density is based on the 2007 population data. Copyright: US Bureau of the Census. Services hosted by Esri.
+						</div>
+					</div>	
+				</div>
+			</div>
+        </div>
+	  <!-- Dialog messages -->
+		<!-- Welcome message and basic instructions for the user -->
+		<div id="dlgWelcome" dojoType="dijit.Dialog" title="County Stats (v1.0)" align="center" style="background-color: #FFFFFF; width: 300px;">
+			Welcome to County Stats.</BR></BR>
+			Use the interactive map tools to select groups of US Counties. The County statistics will be summarized in the
+			information/tool window. Click the blue "i" button to view/hide additional statistics.</BR></BR>
+			To start: <b>1.</b> Click the "Select Counties" button;  <b>2.</b> Move the cursor over the map;  
+			<b>3.</b> Click and hold the primary mouse button to draw a selection box over a few US Counties; <b>4.</b> View summarized County statistics;</BR></BR>
+			<button data-dojo-type="dijit.form.Button" type="button" data-dojo-props="onClick:function(){dijit.byId('dlgWelcome').hide();}">OK</button>
+		</div>
+		<!-- Message to alert user of the selection limitation -->
+		<div id="dlgMaxSelection" dojoType="dijit.Dialog" title="Selection Limit" align="center" style="background-color: #FFFFFF; width: 300px;">
+			A maximum of 1000 Counties can be selected at once. To add more counties to your current
+			selection, re-click the "Select Counties" button and draw an additional selection box.</BR></BR>
+			Overlapping selections will not impact the statistics (will not select the same 
+			county more than once).</BR></BR>
+			<button data-dojo-type="dijit.form.Button" type="button" data-dojo-props="onClick:function(){dijit.byId('dlgMaxSelection').hide();}">OK</button>
+		</div>
+    </div>
+</body>
+	<!-- Load the smart stuff (javascript) -->
+	<script type="text/javascript">dojoConfig = {parseOnLoad: true}</script>
+	<script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/"></script>
+    <script type="text/javascript" src="js/ArcGIS.js"></script>
+</html>

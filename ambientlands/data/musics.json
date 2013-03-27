@@ -1,0 +1,1476 @@
+{
+    "music": [
+        {
+            "url": "https://soundcloud.com/ethnomus/la-danse-de-lours",
+            "id": "/tracks/76812211",
+            "source": "soundcloud",
+            "originalTitle": "La danse de l'ours",
+            "title": "The bear's danse",
+            "yearFirst": 1500,
+            "yearLast": 1800,
+            "tag": [
+                "middle-Age",
+                "traditionnal"
+            ],
+            "periodLabel": "Renaissance",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000040462356-0ual50-large.jpg?ca77017",
+            "importance": 1,
+            "lat": 50.38,
+            "lon": 5.89,
+            "description": "Medieval western europe music",
+            "countries": [
+                "western-europe"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ma-main-man",
+            "id": "/tracks/67367875",
+            "source": "soundcloud",
+            "originalTitle": "Bagpipe",
+            "title": "Bagpipe",
+            "yearFirst": 800,
+            "yearLast": 2013,
+            "tag": [
+                "middle-Age",
+                "traditionnal",
+                "bagpipe"
+            ],
+            "periodLabel": "Middle-age",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 56.7,
+            "lon": -4,
+            "description": "Scotland: the land of bag-pipe",
+            "countries": [
+                "scotland"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ethnomus/tourdion",
+            "id": "/tracks/75331310",
+            "source": "soundcloud",
+            "originalTitle": "Le Tourdion",
+            "title": "Tourdion",
+            "yearFirst": 1000,
+            "yearLast": 1500,
+            "tag": [
+                "middle-Age",
+                "traditionnal"
+            ],
+            "periodLabel": "Middle-age",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000040462356-0ual50-large.jpg?ca77017",
+            "importance": 1,
+            "lat": 46.3,
+            "lon": 2.3,
+            "description": "Traditionnel France medieval music",
+            "countries": [
+                "france"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ethnomus/milkino-oro",
+            "id": "/tracks/75331311",
+            "source": "soundcloud",
+            "originalTitle": "Milkino oro",
+            "title": "Milkino oro",
+            "yearFirst": 1000,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000040462356-0ual50-large.jpg?ca77017",
+            "importance": 1,
+            "lat": 43.1,
+            "lon": 25,
+            "description": "Traditionnel bulagrian music",
+            "countries": [
+                "bulgaria"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/anassantari/sufi",
+            "id": "/tracks/10907997",
+            "source": "soundcloud",
+            "originalTitle": "Sufi music",
+            "title": "Sufi music",
+            "yearFirst": 1000,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal",
+                "sufi"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 25.4,
+            "lon": 70.5,
+            "description": "",
+            "countries": [
+                "pakistan",
+                "india"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/planetchocko/wong-fei-hong-once-upon-a-time",
+            "id": "/tracks/34283465",
+            "source": "soundcloud",
+            "originalTitle": "Wong-Fei-Hong Once Upon A Time In China",
+            "title": "Once Upon A Time In China",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "chinese"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+			"lat": 25.2,
+            "lon": 101.4,
+            "description": "Wong-Fei-Hong Once Upon A Time In China",
+            "countries": [
+                "China"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/titi-robin/pundela",
+            "id": "/tracks/67371519",
+            "source": "soundcloud",
+            "originalTitle": "Pundela",
+            "title": "Pundela",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "indian"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/avatars-000001800934-g73xdr-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 31.4,
+            "lon": 75.0,
+            "description": "voice: Gulabi Sapera<br/>guitar: Titi Robin<br/>accordion: François Castiello<br/>tablâ: Hameed Khan<br/>palmas: Paco el Lobo<br/>recorded in 1992 in Studio Gam (Waimes)",
+            "countries": [
+                "China"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/goingslowly/125-vietnamese-folk-music-soa-truc-dan-nhi",
+            "id": "/tracks/9278322",
+            "source": "soundcloud",
+            "originalTitle": "Soa Truc & Dan Nhi",
+            "title": "Soa Truc & Dan Nhi",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "vietnamese"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000004219447-xdsi5m-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 13.2,
+            "lon": 108.5,
+            "description": "",
+            "countries": [
+                "Vietnam"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/zespolaulos/cantiga-de-santa-maria-119",
+            "id": "/tracks/36851241",
+            "source": "soundcloud",
+            "originalTitle": "Cantiga de Santa Maria 119",
+            "title": "Cantiga de Santa Maria 119",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "spanish"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/avatars-000011678651-ozuw5e-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 41.8,
+            "lon": -7.4,
+            "description": "Cantiga de Santa Maria 119, Como somos per consello - Alfonso X el Sabio",
+            "countries": [
+                "Spain"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/jimec3/01-meditation",
+            "id": "/tracks/16274422",
+            "source": "soundcloud",
+            "originalTitle": "Tibetan Meditation",
+            "title": "Tibetan Meditation",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "tibetan"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 33.8,
+            "lon": 85.3,
+            "description": "",
+            "countries": [
+                "Tibet"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/buddhas-amigo/tibetan-ohm",
+            "id": "/tracks/14923632",
+            "source": "soundcloud",
+            "originalTitle": "Tibetan Ohm",
+            "title": "Tibetan Ohm",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "tibetan"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000003652831-8ihpkc-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 29.3,
+            "lon": 91.4,
+            "description": "",
+            "countries": [
+                "Tibet"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/fatihcal/gen-fas-l-sk-dara-gideriken",
+            "id": "/tracks/81943964",
+            "source": "soundcloud",
+            "originalTitle": "Üsküdar'a Gideriken",
+            "title": "Üsküdar'a Gideriken",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Turkey"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000042223393-yh5vjm-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 39.2,
+            "lon": 34.7,
+            "description": "Genç Fasıl - Üsküdar'a Gideriken www.gencdergisi.com",
+            "countries": [
+                "Turkey"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/chris-elmes/saltarello-1",
+            "id": "/tracks/63505932",
+            "source": "soundcloud",
+            "originalTitle": "Saltarello",
+            "title": "Saltarello",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Italy"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000032224471-9lpr7k-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 42.2,
+            "lon": 12.2,
+            "description": "",
+            "countries": [
+                "Italy"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/mvalford/mbira",
+            "id": "/tracks/21623617",
+            "source": "soundcloud",
+            "originalTitle": "Mbira",
+            "title": "Mbira",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Zimbabwe"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000010666783-qp14eh-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -17.6,
+            "lon": 29.5,
+            "description": "",
+            "countries": [
+                "Zimbabwe"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/b-argyle/mongolia-1",
+            "id": "/tracks/76282253",
+            "source": "soundcloud",
+            "originalTitle": "Mongolia",
+            "title": "Mongolia",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Mongolia"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 52.5,
+            "lon": 95.6,
+            "description": "",
+            "countries": [
+                "Mongolia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/b-argyle/mongolia-2",
+            "id": "/tracks/76281407",
+            "source": "soundcloud",
+            "originalTitle": "Mongolia",
+            "title": "Mongolia",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Mongolia"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 46.3,
+            "lon": 108.7,
+            "description": "",
+            "countries": [
+                "Mongolia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/yocopio/bajikise-bops",
+            "id": "/tracks/80564268",
+            "source": "soundcloud",
+            "originalTitle": "Bajikise Bops",
+            "title": "Bajikise Bops",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "South Africa"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000041456309-124apu-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -30.83,
+            "lon": 22.9,
+            "description": "performed by: Makgona Tsohle Band, from the album: Makgona Tsohle Reggi",
+            "countries": [
+                "South Africa"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/megha-makam/soukous",
+            "id": "/tracks/80732588",
+            "source": "soundcloud",
+            "originalTitle": "Soukous",
+            "title": "Soukous",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Africa",
+                "Soukous"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000008315301-jpx091-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 12.3,
+            "lon": 12.5,
+            "description": "Inspired by soukous rhythms, a rough cut.",
+            "countries": [
+                "Mali",
+                "Niger",
+                "Nigeria",
+                "Tchad",
+                "Burkina"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/odes-odes/meiway-achimango",
+            "id": "/tracks/74259074",
+            "source": "soundcloud",
+            "originalTitle": "MEIWAY - achimango",
+            "title": "MEIWAY - achimango",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Africa"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000037928780-hn6oww-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 7.8,
+            "lon": -5.6,
+            "description": "",
+            "countries": [
+                "Cotes d'ivoire"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/jahazi-media/rajab-suleiman-trio-msewe",
+            "id": "/tracks/77683691",
+            "source": "soundcloud",
+            "originalTitle": "Rajab Suleiman Trio - Msewe",
+            "title": "Rajab Suleiman Trio - Msewe",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Zanzibar"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000039860170-5ugot6-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -6.21,
+            "lon": 39.4,
+            "description": "Zanzibari qanun player Rajab Suleiman is probably best known as a member and featured soloist of the Culture Musical Club, which together with Ikhwani Safaa established the legacy of the Islands’ large taarab orchestras and social clubs.  For more information on Rajab Suleiman please visit: www.jahazi-media.com",
+            "countries": [
+                "Tanzania"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/sinyo-o/untitled-joik-featuring-kelsey",
+            "id": "/tracks/62749116",
+            "source": "soundcloud",
+            "originalTitle": "Joik featuring Kelsey Maye",
+            "title": "Joik featuring Kelsey Maye",
+            "yearFirst": 1500,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Joik"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000031834264-igpfk6-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 67.2,
+            "lon": 18.9,
+            "description": "Joik music",
+            "countries": [
+                "Finland",
+                "Sweden",
+                "Norway"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/revesjef/a-joik-in-the-cupola-of",
+            "id": "/tracks/31081534",
+            "source": "soundcloud",
+            "originalTitle": "A joik in the cupola of decay",
+            "title": "A joik in the cupola of decay",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Joik"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000015595959-2q0nmp-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 68.1,
+            "lon": 37.1,
+            "description": "At Teufelsberg, surrounded by rubble and mould, I started to miss my herd.",
+            "countries": [
+                "Finland",
+                "Sweden",
+                "Norway"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ethnomus/nessar",
+            "id": "/tracks/83661980",
+            "source": "soundcloud",
+            "originalTitle": "Nessar",
+            "title": "Nessar",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Iran"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000043171832-nlq52l-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 32.8,
+            "lon": 52.7,
+            "description": "Traditionnel Persian music",
+            "countries": [
+                "Iran"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/benjaminz-1/my-sasando",
+            "id": "/tracks/27960295",
+            "source": "soundcloud",
+            "originalTitle": "sasando",
+            "title": "sasando",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Indonesia"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000012504391-9t0mnf-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -9.1,
+            "lon": 125.2,
+            "description": "Sasando is the most beauty musical instrument from Indonesia,sound so natural,,n tropical... found in Nusa Tenggara Timur at Rotae island but no body sure when the local tribe invent it.",
+            "countries": [
+                "Indonesia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/soundiron/sascha-knorr-rain-song",
+            "id": "/tracks/65314109",
+            "source": "soundcloud",
+            "originalTitle": "Sascha Knorr - Rain Song - Angklung",
+            "title": "Sascha Knorr - Rain Song - Angklung",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Indonesia",
+                "Angklung"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/artworks-000033142454-cbw9ke-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -3.3,
+            "lon": 104.5,
+            "description": "",
+            "countries": [
+                "Indonesia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/nurameir/gamelan-gendang-sembilan",
+            "id": "/tracks/17875749",
+            "source": "soundcloud",
+            "originalTitle": "Gamelan Gendang Sembilan",
+            "title": "Gamelan Gendang Sembilan",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Gendang"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000004419135-rvpuqg-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 9.8,
+            "lon": 122.7,
+            "description": "",
+            "countries": [
+                "Indonesia",
+                "Pilipinas"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/dat-malem-tarigan-tambak/gendang-teba-1",
+            "id": "/tracks/81076618",
+            "source": "soundcloud",
+            "originalTitle": "Gendang Teba",
+            "title": "Gendang Teba",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Gendang"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000035115140-4ei1yz-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 4.6,
+            "lon": 115.8,
+            "description": "",
+            "countries": [
+                "Indonesia",
+                "Malaysia",
+                "Pilipinas"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/koji-nakano/unspoken-voices-unspoken",
+            "id": "/tracks/27716758",
+            "source": "soundcloud",
+            "originalTitle": "Unspoken Voices-Unspoken Spirits for Thai Classical Singers and Musicians",
+            "title": "Unspoken Voices-Unspoken Spirits for Thai Classical Singers and Musicians",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Thailande"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000005047048-n59loh-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 14.3,
+            "lon": 99.7,
+            "description": "Music and Performing Arts Festival at Eastern Cultural Center, Burapha University, 2008",
+            "countries": [
+                "Thailande"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/user578763738/sets/ragas",
+            "id": "/tracks/71349304",
+            "source": "soundcloud",
+            "originalTitle": "Ragas",
+            "title": "Ragas",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Bangladesh"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000022623772-nic5ak-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 24.1,
+            "lon": 89.6,
+            "description": "This set contains 5 sounds",
+            "countries": [
+                "Bangladesh"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/rbmuseum/kertolghau",
+            "id": "/tracks/44609114",
+            "source": "soundcloud",
+            "originalTitle": "Жаппас Қаламбаев - Кертолғау (Ықылас)",
+            "title": "Kazakhstan Жаппас Қаламбаев",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Kazakhstan"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000022423990-8rnvoz-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 47.8,
+            "lon": 65.2,
+            "description": "",
+            "countries": [
+                "Kazakhstan"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/rootspower/marna-mpiarakandro",
+            "id": "/tracks/68196090",
+            "source": "soundcloud",
+            "originalTitle": "MAR'NA feat.Berto - Mpiarakandro",
+            "title": "MAR'NA feat.Berto - Mpiarakandro",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Madagascar"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000034585858-263u45-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -19.3,
+            "lon": 46.0,
+            "description": "Mar'na : chant<br/>Berto : mandoline<br/>Soa : kabosy, jijy<br/>Sana : choeurs",
+            "countries": [
+                "Madagascar"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/world-music-network/krar-collective-guragigna",
+            "id": "/tracks/55703542",
+            "source": "soundcloud",
+            "originalTitle": "Krar Collective - Guragigna",
+            "title": "Krar Collective - Guragigna",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Ethiopia",
+				"krar"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000028153818-qi3i6g-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 8.6,
+            "lon": 38.5,
+            "description": "Krar Collective serve up mind-blowing Ethiopian grooves on this excellent debut. Armed with their krar, kebero drums and stunning vocals, they have created Ethiopia Super Krar – an album rooted in tradition, and soaked with attitude.",
+            "countries": [
+                "Ethiopia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/black-b-4/essoundoussia-btayhi-q-d",
+            "id": "/tracks/81403281",
+            "source": "soundcloud",
+            "originalTitle": "Essoundoussia - Btayhi - Qâd Kountou Khatir",
+            "title": "Essoundoussia - Btayhi - Qâd Kountou Khatir",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Arabo-andalou"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000035329322-83rybj-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 34.3,
+            "lon": 1.1,
+            "description": "",
+            "countries": [
+                "Algeria", "Marocco"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/granpiramide/ancient-egyptian-music",
+            "id": "/tracks/73380548",
+            "source": "soundcloud",
+            "originalTitle": "Ancient Egyptian Music - Nenchefka's Orchestra",
+            "title": "Ancient Egyptian Music - Nenchefka's Orchestra",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Egypt"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 27.1,
+            "lon": 30.9,
+            "description": "",
+            "countries": [
+                "Egypt"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/djfuschia/all-arabic-mix-15-minutes",
+            "id": "/tracks/13688530",
+            "source": "soundcloud",
+            "originalTitle": "All Arabic mix 15 minutes",
+            "title": "All Arabic mix 15 minutes",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Khaleeji"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/avatars-000001551975-ohlxk5-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 25.6,
+            "lon": 42.4,
+            "description": "Mix with khaleeji/iraqi/lebanese songs for Arabic wedding parties",
+            "countries": [
+                "Liban", "Saudi Arabia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/erdaltu-cular/duduk",
+            "id": "/tracks/12273915",
+            "source": "soundcloud",
+            "originalTitle": "Duduk",
+            "title": "Duduk",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "duduk"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/avatars-000003011858-suzi7f-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 41.1,
+            "lon": 45.5,
+            "description": "Duduk (VST Erdal TUĞCULAR)",
+            "countries": [
+                "Liban", "Armenia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/powazne/bogurodzica",
+            "id": "/tracks/17112346",
+            "source": "soundcloud",
+            "originalTitle": "Bogurodzica",
+            "title": "Bogurodzica",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Bogurodzica"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000005205498-ts73vd-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 52.5,
+            "lon": 19.0,
+            "description": "Nazwą chorał gregoriański określa się tradycyjny, starożytny, łaciński śpiew Kościoła rzymsko-katolickiego. Mimo, że tak naprawdę nie wiemy, jak ten śpiew brzmiał, z rozmaitych zachowanych przekazów zarysowuje się pewien jego obraz, a to już dużo.",
+            "countries": [
+                "Poland"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/bear_41/baltic-prussian-pr-siskan",
+            "id": "/tracks/65254083",
+            "source": "soundcloud",
+            "originalTitle": "Kūlgrinda",
+            "title": "Kūlgrinda",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Kūlgrinda"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000033115255-z36tqq-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 55.8,
+            "lon": 24.6,
+            "description": "Prūsa, Tū Sestrīka<br/>As Kwāi Mīnintun Prūsan<br/>Sāulika Patekka",
+            "countries": [
+                "Lithuania"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/traditions-org-ua/sets/koliadky",
+            "id": "/tracks/72934987",
+            "source": "soundcloud",
+            "originalTitle": "Добрий вечір тобі - Пікардійська Терція",
+            "title": "Koliadky",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Koliadky"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000029622503-2h3ssh-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 50.6,
+            "lon": 33.5,
+            "description": "",
+            "countries": [
+                "Ukraine"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/george-rutkay/gusli4",
+            "id": "/tracks/56074061",
+            "source": "soundcloud",
+            "originalTitle": "Gusli",
+            "title": "Gusli",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Gusli"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000020300692-q79kr4-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 56.8,
+            "lon": 37.1,
+            "description": "",
+            "countries": [
+                "Russia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/naedrum/4-shinawi-for-drums-live",
+            "id": "/tracks/82170563",
+            "source": "soundcloud",
+            "originalTitle": "Shinawi for Drums",
+            "title": "Shinawi for Drums",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Chungbae"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000042347524-fyiqrq-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 38.0,
+            "lon": 127.4,
+            "description": "These are 2012 Naedrum Concert Live sound tracks.",
+            "countries": [
+                "Korea"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ju-sza/mo-li-hua-jasmine-flower",
+            "id": "/tracks/52919990",
+            "source": "soundcloud",
+            "originalTitle": "Mo Li Hua - Jasmine Flower - Chinese Traditional Music",
+            "title": "Mo Li Hua - Jasmine Flower - Chinese Traditional Music",
+            "yearFirst": 1300,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Chinese"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000026706033-eqgddm-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 34.2,
+            "lon": 109.2,
+            "description": "",
+            "countries": [
+                "China"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/rastasia/koromo-gae",
+            "id": "/tracks/61349009",
+            "source": "soundcloud",
+            "originalTitle": "Gagaku - Koromo-gae",
+            "title": "Gagaku - Koromo-gae",
+            "yearFirst": 1000,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Gagaku"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/artworks-000031104795-7s71yn-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 35.6,
+            "lon": 138.7,
+            "description": "Performed by Music Department of the Imperial Household Agency of Tokyo in Amsterdam, NL<br/>Gagaku literally means ‘elegant music’ in Japan. ",
+            "countries": [
+                "Japon"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/didgeridoobreath/didgeridoo-5",
+            "id": "/tracks/77218079",
+            "source": "soundcloud",
+            "originalTitle": "Didgeridoo",
+            "title": "Didgeridoo",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Didgeridoo"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/artworks-000039599151-k7uzbs-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -25.6,
+            "lon": 133.4,
+            "description": "",
+            "countries": [
+                "Australia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/krauka/jomsvikingerne",
+            "id": "/tracks/32708726",
+            "source": "soundcloud",
+            "originalTitle": "Jomsvikingerne",
+            "title": "Jomsvikingerne",
+            "yearFirst": 600,
+            "yearLast": 1200,
+            "tag": [
+                "traditionnal",
+                "Viking"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000008856865-egbjro-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 59.9,
+            "lon": 10.6,
+            "description": "",
+            "countries": [
+                "Norway", "Denmark", "Sweden"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/appalachian-music/ralph-stanley-w-ricky-skaggs",
+            "id": "/tracks/26930405",
+            "source": "soundcloud",
+            "originalTitle": "Ralph Stanley",
+            "title": "Ralph Stanley",
+            "yearFirst": 0,
+            "yearLast": 1900,
+            "tag": [
+                "traditionnal",
+                "Apalachian"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000007070880-t2k4o9-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 42.0,
+            "lon": -76.5,
+            "description": "",
+            "countries": [
+                "United-States"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/deepgospel/premium-fortenberry-traveling",
+            "id": "/tracks/57282956",
+            "source": "soundcloud",
+            "originalTitle": "Premium Fortenberry Traveling Shoes",
+            "title": "Premium Fortenberry Traveling Shoes",
+            "yearFirst": 1800,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+                "Gospel"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000028972412-0xbbwf-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 30.7,
+            "lon": -94.0,
+            "description": "",
+            "countries": [
+                "United-States"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/mariachi-el-bronx/05-sleepwalking",
+            "id": "/tracks/7607844",
+            "source": "soundcloud",
+            "originalTitle": "Sleepwalking",
+            "title": "Sleepwalking",
+            "yearFirst": 1800,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000002154691-z92vo8-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 33.3,
+            "lon": -117.3,
+            "description": "",
+            "countries": [
+                "United-States", "Mexico"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/teralee/01-track-1",
+            "id": "/tracks/29865596",
+            "source": "soundcloud",
+            "originalTitle": "I'll Fly away",
+            "title": "I'll Fly away",
+            "yearFirst": 1800,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"country"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 39.5,
+            "lon": -100,
+            "description": "",
+            "countries": [
+                "United-States"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ben-vida/panpipes-and-voice",
+            "id": "/tracks/32902612",
+            "source": "soundcloud",
+            "originalTitle": "Panpipes and Voice",
+            "title": "Panpipes and Voice",
+            "yearFirst": 600,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal",
+				"Incas"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/avatars-000022666914-hgqxjt-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -24.2,
+            "lon":  -68.8,
+            "description": "",
+            "countries": [
+                "Peru"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/whacking6/11-ponto-de-muta-o",
+            "id": "/tracks/22561828",
+            "source": "soundcloud",
+            "originalTitle": "Ponto De Mutação",
+            "title": "Ponto De Mutação",
+            "yearFirst": 0,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal",
+				"RioNegro"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000011160887-d1y70z-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -1.3,
+            "lon":  -61.6,
+            "description": "I Ching, the third album from Brazil's avante-garde group Uakti, consists largely of music written for the Grupo Corpo Brazilian Dance Theater by Uakti's leader, Marco Antônio Guimarães.",
+            "countries": [
+                "Brazil"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/mandisi-nkomo/traditional-samba",
+            "id": "/tracks/60163176",
+            "source": "soundcloud",
+            "originalTitle": "Traditional Samba",
+            "title": "Traditional Samba",
+            "yearFirst": 0,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal",
+				"Samba"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": -22.3,
+            "lon": -43.6,
+            "description": "",
+            "countries": [
+                "Brazil"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/inca-music/cuban-lift-music",
+            "id": "/tracks/19217189",
+            "source": "soundcloud",
+            "originalTitle": "Cuban Lift Music",
+            "title": "Cuban Lift Music",
+            "yearFirst": 0,
+            "yearLast": 1500,
+            "tag": [
+                "traditionnal",
+				"Inca"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000004819331-mvpdzj-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 21.8,
+            "lon": -78.8,
+            "description": "",
+            "countries": [
+                "Cuba"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/discos-corason/1-los-hermanos-rios-la-llorona",
+            "id": "/tracks/63011828",
+            "source": "soundcloud",
+            "originalTitle": "Los Hermanos Rios - La Llorona",
+            "title": "Los Hermanos Rios - La Llorona",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Son",
+				"Istmeños"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/artworks-000031967735-2wx3t6-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 16.6,
+            "lon": -96.8,
+            "description": "En este disco de sones istmeños -el sentir profundo de los zapotecos del Istmo de Tehuantepec- guitarristas virtuosos, algunos famosos, otros desconocidos, cantan -en zapoteco y en español las canciones de amor y lamento que se reconocen entre las grandes composiciones románticas de la música mexicana.",
+            "countries": [
+                "Mexico"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/ezequielcortabarria/10-9-de-julio",
+            "id": "/tracks/84089251",
+            "source": "soundcloud",
+            "originalTitle": "9 de Julio",
+            "title": "9 de Julio",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Tango"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000043406065-p63k84-t200x200.jpg?ca77017n.com/artworks-000031967735-2wx3t6-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -33.8,
+            "lon": -59.4,
+            "description": "Trio del Novecientos en versión vinilo interpreta 9 de Julio de J.L: Padula.",
+            "countries": [
+                "Argentina"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/f-tawillimapu-mapuche-williche/08-canto-mapuche",
+            "id": "/tracks/59035939",
+            "source": "soundcloud",
+            "originalTitle": "Canto Mapuche",
+            "title": "Canto Mapuche",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Mapuche"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000029888118-1rm9bf-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -38.9,
+            "lon": -71.4,
+            "description": "",
+            "countries": [
+                "Argentina"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/goinnative/inkamerica-karun-llaqtama",
+            "id": "/tracks/19294710",
+            "source": "soundcloud",
+            "originalTitle": "INKAmerica - Karun Llaqtama (Sanjuanito)",
+            "title": "INKAmerica - Karun Llaqtama (Sanjuanito)",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Andian"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000009474908-ej7j1z-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": -1.7,
+            "lon": -78.8,
+            "description": "Reward on Moozar : reward-my-music.com/25271",
+            "countries": [
+                "Ecuador"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/colin-farish/05-salish-sound",
+            "id": "/tracks/59644389",
+            "source": "soundcloud",
+            "originalTitle": "Salish Sound",
+            "title": "Salish Sound",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Salish"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000018958229-m5iyv8-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 54.4,
+            "lon": -127.5,
+            "description": "",
+            "countries": [
+                "Canada"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/flutespirit/05-iroquois-spirits",
+            "id": "/tracks/16088979",
+            "source": "soundcloud",
+            "originalTitle": "Iroquois Spirits",
+            "title": "Iroquois Spirits",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Iroquois"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/artworks-000007683771-mo0geo-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 47.61,
+            "lon": -78.0,
+            "description": "",
+            "countries": [
+                "Canada"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/robertgeorgesaull/welcome-to-nunatukavut",
+            "id": "/tracks/10034079",
+            "source": "soundcloud",
+            "originalTitle": "Welcome To Nunatukavut",
+            "title": "Welcome To Nunatukavut",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "traditionnal",
+				"Inuit"
+            ],
+            "periodLabel": "",
+            "iconUrl": "style/images/logo_big_black.png",
+            "importance": 1,
+            "lat": 63.7,
+            "lon": -97.6,
+            "description": "(Note: The song takes time to starts) A tribute to Meredith Monk, Bulgarian choral singing and Inuit throat singing.",
+            "countries": [
+                "Canada"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/jbloit/katajjaq-recording",
+            "id": "/tracks/57344910",
+            "source": "soundcloud",
+            "originalTitle": "Katajjaq recording",
+            "title": "Katajjaq recording",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "Katajjaq",
+				"Inuit"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/avatars-000034787520-w35joo-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 64.4,
+            "lon": -45.1,
+            "description": "An inuit vocal duel of throat sounds.",
+            "countries": [
+                "Canada"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/dominika-w-c-awek/ayarkhaan-skrzyzowanie-kultur",
+            "id": "/tracks/61042673",
+            "source": "soundcloud",
+            "originalTitle": "Ayarkhaan @ Skrzyzowanie Kultur",
+            "title": "Ayarkhaan @ Skrzyzowanie Kultur",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+                "Katajjaq",
+				"Yakutia"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i2.sndcdn.com/avatars-000013683411-eignhd-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 62.3,
+            "lon": 124.7,
+            "description": "Ayarkhaan, amazing female shaman choir from Yakutia, Siberia live at World Music Festival Skrzyzowanie Kultur, Warsaw",
+            "countries": [
+                "Russia"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/chat-guqin/water",
+            "id": "/tracks/30049358",
+            "source": "soundcloud",
+            "originalTitle": "water",
+            "title": "water",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+				"Guqin "
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i3.sndcdn.com/avatars-000007976304-nifbfi-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 23.8,
+            "lon": 114.8,
+            "description": "Chat Guqin",
+            "countries": [
+                "China", "Thailand", "Vietnam"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/vkaacemy/muqam-e-farkhar-khush-mohd",
+            "id": "/tracks/19004760",
+            "source": "soundcloud",
+            "originalTitle": "Khush Mohammad Farkhari     Muqam e Farkhar",
+            "title": "Khush Mohammad Farkhari     Muqam e Farkhar",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+				"Muqam"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i4.sndcdn.com/artworks-000009281902-sfbbbq-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 38.4,
+            "lon": 69.3,
+            "description": "",
+            "countries": [
+                "China", "Afghanistan"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/funi-iceland/06-man-g-ig-mey-i-remember-you",
+            "id": "/tracks/79389431",
+            "source": "soundcloud",
+            "originalTitle": "Man ég þig mey",
+            "title": " remember you maid",
+            "yearFirst": 1700,
+            "yearLast": 2000,
+            "tag": [
+				"Iceland"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000040800015-0eiba8-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 64.6,
+            "lon": -18.6,
+            "description": "Text: Jónas Hallgrímsson (1807 - 1845).<br/>Tune: trad., arr. Bára Grímsdóttir & Chris Foster.<br/> A love song by Iceland’s 'national poet', set to a traditional tvísöngur tune and accompanied on langspil, which sometimes takes the line of the second voice. Regular use of the Icelandic langspil ceased about a hundred years ago, sadly before any recordings could be made. A revival is definitely long overdue.",
+            "countries": [
+                "Iceland"
+            ]
+        },
+        {
+            "url": "https://soundcloud.com/sukiyaki-artist-network/marewrew-sa-oy",
+            "id": "/tracks/35928435",
+            "source": "soundcloud",
+            "originalTitle": "Marewrew - Sa Oy",
+            "title": "Marewrew - Sa Oy",
+            "yearFirst": 0,
+            "yearLast": 2000,
+            "tag": [
+				"Upopo"
+            ],
+            "periodLabel": "",
+            "iconUrl": "https://i1.sndcdn.com/artworks-000018021220-tysbwx-t200x200.jpg?ca77017",
+            "importance": 1,
+            "lat": 48.5,
+            "lon": 142.4,
+            "description": "Marewrew is a group of four women working on diffusion and renewal of the ancient Upopo songs of the Ainu people. <br/>Originally based in Northern Japan (Hokkaido island), Sakhalin and the Kuril Islands, the Ainu have been oppressed in both Japan and Russia, and their cultural characteristics (language, art, shamanism) are facing a complex and dangerous situation. ",
+            "countries": [
+                "Japan", "Russia"
+            ]
+        }
+    ],
+	
+	"routes" : [	{"paths":[[[15262917.978106808,4203131.422167142],[14176900.680231314,4526001.42964364],[12220112.756131321,4085724.1467211423],[12044001.84296232,5758777.821826635],[10644898.477230828,6825227.240461131],[7289007.187399343,6052296.010441634],[7709716.591080841,4643408.70508964],[5919255.6405293485,3899829.2939316435],[5077836.8331663525,4985846.591807138],[3864628.3202243536,4724126.206958767]]],"spatialReference":{"wkid":102100}},
+	
+		{"paths":[[[1183828.8642073693,8214546.666572127],[-410953.2939341245,7647078.168583129],[-2093790.908660117,9466890.937996121],[-5028972.794810105,9408187.300273122],[684847.9435618706,6502357.232984633],[234786.72101887316,5797913.580308637],[-880582.3957181228,5122821.74649414],[156515.20405487344,4056372.327859644],[1350155.8377558682,5181525.384217139],[2778611.022348862,5289148.7200426385],[3688517.4070553575,6512141.172605134],[2729691.324246362,7529670.893137129],[4128794.6899778564,10474636.718907617],[2113303.1281548645,10210470.349154118]]],"spatialReference":{"wkid":102100}},
+		{"paths":[[[12934340.348427817,2715972.599851148],[13668135.819965314,1082054.6832276548],[12924556.408807319,534154.064479657],[13912734.310477814,-1070412.0332823358],[11613508.499660324,-414888.0787088387],[11016688.182809826,1541899.845391153],[9960022.703795832,2715972.599851148],[7846691.74576784,2872515.633779147],[4715831.067207854,2882299.573399647],[4353825.301249355,-669270.5088418378],[5077836.833166352,-2166213.2707783314]]],"spatialReference":{"wkid":102100}}
+	
+	
+	]
+}
+ 

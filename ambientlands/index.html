@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">   
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>Ambient Lands</title>
+  <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact"></script>
+  <!-- Load my JavaScript and CSS -->
+  <link rel="stylesheet" type="text/css" href="style/ambientlands.css">
+  <link rel="stylesheet" type="text/css" href="style/mapstyles.css">
+  <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+  <script src="http://connect.soundcloud.com/sdk.js"></script>
+  <script src="js/ambientlands.js"></script>
+</head>
+  <body>
+   <div class="actionBar">
+    <div class="panelLeft">
+		<!--<input type="button" onclick="changeMusic();" value="Change music" />-->
+		<div class="controls">
+			<button id="basemap0" class="btn btn-primary btn-inverse" onclick="setMode(0);startLocalMusic();" title="Navigate freely in the map. The local music of the area will automatically plays">Travel & Discover</button>
+			<button id="basemap1" class="btn btn-primary btn-inverse" onclick="setMode(1);" title="Disable navigation and force the app to only play the music you have selected when you clic on an icon popup">Play on Click</button>
+			<button id="basemap2" class="btn btn-primary btn-inverse" onclick="showHelp(true);" title="Display the menu to let you choose between the existing travels. Just see and listen!">Main Menu</button>
+		</div>
+	</div>
+	 <div class="panelRight">
+			<a href = "http://soundcloud.com/"> <img src="style/images/powered_by_large_black.png"/> </a>
+			<br/>
+			<input type="button" class="btn btn-primary btn-inverse" onclick="playPause();" value="Play / Pause" />
+			<br/><br/>
+			<p class="noLine"><b>Now playing: </b></p><p id="musicName" class="noLine"></p>
+			<div id="tra" class="invis">
+				<hr/>
+				<h3>Automatic travel</h3>
+				<input type="button" class="btn btn-primary btn-inverse" onclick="tPaused = false;updateTravel(true);" value="Previous" />
+				<input type="button" class="btn btn-primary btn-inverse" onclick="tPaused = true;" value="Stay Here" />
+				<input type="button" class="btn btn-primary btn-inverse" onclick="tPaused = false;updateTravel();" value=" Next " />
+			</div>
+	</div>
+		
+		
+	<div class="panelCenter" id="pCent">
+		<div  class="closeButton"><a href="javascript:showHelp(false);"><img src="style/images/close.png"/></a></div>
+		<h2>AmbientLands: Discover a world of music on a map</h2>
+			<p><b>Travel&Discover:</b> Just navigate on the map to listen to the local ambience</p>
+			<p><b>PlayOnClick:</b> Disable the travel to control when the music plays</p>
+			<p><b>Registered Travel:</b> Or just select a trip below!</p>
+		<br/>
+		<button class="btn btn-primary btn-inverse" onclick="setMode(2);startTravel(0);">The silk road</button>
+		<button class="btn btn-primary btn-inverse" onclick="setMode(2);startTravel(1);">The Viking seas</button>
+		<button class="btn btn-primary btn-inverse" onclick="setMode(2);startTravel(2);">Voyages of Zheng He</button>
+		<br/><br/>
+		<img src="style/images/progress.gif" id="loader"/>
+		<br/>
+		<p><i>Note1: All songs are moderns (re)interpretations of traditionals songs or musics genres ranged from 4000 B.C to 1950 A.D.</i></p>
+		<p><i>Note2: Despite the developer's awareness, the compliance of the song with the country can not be fully guaranteed</i></p>
+	</div>
+	</div>
+	
+    <div id="mapDiv"></div>
+  </body>
+</html>

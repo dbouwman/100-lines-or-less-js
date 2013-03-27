@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: verdana, helvetica;
+}
+
+/* Layout */
+#header {
+	overflow: hidden;
+	background: url("../images/head.png") repeat-x;
+	border: 1px solid #0033cc;
+	height: 25px;
+	margin: 2px;
+}
+
+#textHeader {
+	float: left;
+}
+
+.textHeadFoot {
+	color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+#search {
+	float: right;
+	margin-right: 2px;
+}
+
+.simpleGeocoder .esriGeocoderContainer {
+	font-size: 10px;
+	line-height: 12px;
+	width: 150px;
+}
+
+.simpleGeocoder .esriGeocoder {
+	border: 1px solid #0033cc;
+	border-radius: 0px;
+}
+
+.simpleGeocoder .esriGeocoder input {
+	padding: 4px 0px 0px 0px;
+	font-size: 10px;
+	line-height: 12px;
+	width: 100px;
+}
+
+.simpleGeocoder .esriGeocoder .esriGeocoderSearch, .simpleGeocoder .esriGeocoder .esriGeocoderReset {
+	cursor: pointer;
+	margin: 3px 0px 3px 3px
+}
+
+#footer {
+	overflow: auto;
+	background: url("../images/head.png") repeat-x;
+	border: 1px solid #0033cc;
+	height: 25px;
+	margin: 2px;
+	font-size: 10pt;
+	color: white;
+}
+
+#myForm {
+	font-family: verdana, helvetica;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+#fooleft {
+	padding-left: 10px;
+	float: left;
+}
+
+#fooright {
+	padding-right: 10px;
+	float: right;
+}
+
+#map {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+/* infoWindow */
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #cc0033;
+}
+a:hover {
+	color: #cc0033;
+}
+a:active {
+	color: #cc0033;
+}
+
+.soria .infowindow .sprite {
+	background: url("../images/myInfowindow2.png");
+}
+
+.infowindow .window {
+	color: #FFFFFF;
+	font-family: verdana, sans-serif;
+}
+
+/* ZoomSlider */
+.esriSimpleSliderVertical .esriSimpleSliderIncrementButton, .esriSimpleSliderVertical .esriSimpleSliderDecrementButton {
+	background: url("../images/head.png") repeat-x;
+	border: 1px solid #0033cc;
+	border-radius: 11px 11px 11px 11px;
+}
+
+.esriSimpleSlider div {
+	font-size: 18px;
+	line-height: 20px;
+	height: 22px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 22px;
+}
+
+.esriSimpleSlider {
+	background-color: transparent;
+	border: none;
+	border-radius: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	position: absolute;
+	text-align: center;
+}
+
+.esriAttributionLastItem {
+	color: #4682b4;
+	font-size: 11px;
+}
+
+.esriSimpleSliderTL {
+	left: 10px;
+	top: 5px;
+}
+
+.home{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 30;
+	background: url("../images/home4.png") transparent;
+	background-size: 22px;
+	border: 1px solid #0033cc;
+	border-radius: 11px 11px 11px 11px;
+	height: 22px;
+	width: 22px;
+	cursor: pointer;
+}
+

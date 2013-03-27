@@ -1,0 +1,41 @@
+﻿html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:hidden; /* Hide bottom overflow of map */
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#progressbar {
+	position: absolute;
+    right: 50%; 
+    top: 50%; 
+    z-index: 99;
+    height:50px; 
+    width:200px;
+}
+
+#progressbarLabel {
+	position: absolute;
+    right: 40%; 
+    top: 30%; 
+
+}
+
+#desc {
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    width: 100px;
+    z-index: 120;
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+}

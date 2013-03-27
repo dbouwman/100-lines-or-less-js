@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <title>USGS Earthquakes</title>
+    
+    <!-- load ESRI stylesheets -->
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+    
+    <!-- load custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- load jquery -->
+    <script src="js/jquery-1.8.0.min.js"></script>
+  
+    <!-- load ESRI javascript API -->
+    <script>dojoConfig = { parseOnLoad:true }</script>
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact" type="text/javascript"></script> 
+	
+    <!-- load custom javascript -->
+	<script src="js/ArcGIS.js"></script>
+	
+</head>
+<body>
+	
+	<!-- loading screen while USGS earthquake data is downloaded -->
+	<div id='loadingScreen'>
+		<div id='loading'><div style='padding:7px;'>Loading Earthquake Data...</div><img src='images/loading.gif'></div>
+	</div>
+    
+    <!-- outer container -->
+    <div id="mainWindow" dojotype="dijit.layout.BorderContainer" gutters="false">
+        
+        <!-- header div -->
+        <div id="header" dojotype="dijit.layout.ContentPane" region="top">
+		    <div id='titleDiv'>
+		    	<div id='mainTitle'>
+		        	<h2>USGS Earthquakes</h2>
+		        	<h6>Magnitude 2.5+ earthquakes for the past 30 days</h6>
+		    	</div>
+            </div>
+            <div id="authorDiv">by Ryan Stanley</div>
+            
+        </div>
+        
+        <!-- 4px tall div between header and map -->
+        <div id="headerBar" dojotype="dijit.layout.ContentPane" region="top"></div>	 
+        
+        <!-- map div -->
+        <div id="map" dojotype="dijit.layout.ContentPane" region="center">
+            
+            <div class='pulse_holder'>
+				<div class='pulse_marker'>
+					<div class='pulse_rays'></div>
+				</div>
+			</div>
+			
+			<!-- Earthquake information div -->
+			<div id="eqInfoMobile">
+				<div id='eqTable'>
+					<div class="row">
+						<div class='eqMag'></div>
+						<div class='eqLocation'></div>
+					</div>
+					<div class="row">
+						<div class="eqDate"></div>
+						<div class="eqDepth"></div>
+					</div>
+					<div class="row">
+						<div class="eqUSGS"><a href='' target='_blank'>Link to USGS Earthquake Page</a></div>
+					</div>
+					<div class="row">
+						<div class="eqBookmark"></div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Legend for earthquake symbols -->	
+			<div id="legendDiv">
+				<table id="legendTable">
+					<tr>
+						<th colspan="2">Magnitude</th>
+					</tr>
+					<tr>
+						<td id='mag2'></td>
+						<td>2.5 - 2.9</td>
+					</tr>
+					<tr>
+						<td id='mag3'></td>
+						<td>3 - 3.9</td>
+					</tr>
+					<tr>
+						<td id='mag4'></td>
+						<td>4 - 4.9</td>
+					</tr>
+					<tr>
+						<td id='mag5'></td>
+						<td>5 - 5.9</td>
+					</tr>
+					<tr>
+						<td id='mag6'></td>
+						<td>6 - 6.9</td>
+					</tr>
+					<tr>
+						<td id='mag7'></td>
+						<td>7 - 7.9</td>
+					</tr>
+					<tr>
+						<td id='mag8'></td>
+						<td>8 - 8.9</td>
+					</tr>
+				</table>
+			</div>
+        
+        </div>
+        
+    </div>
+    
+</body>
+</html>

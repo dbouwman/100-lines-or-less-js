@@ -1,0 +1,86 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+    font-family: Verdana, Arial;
+}
+
+#borderContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.sessions-list
+{
+    width: 95%;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left:0px;
+}
+
+.sessions-list li
+{
+    font-size: 0.9em;
+    text-align: left;
+    border-bottom: gray 1px solid;
+    padding: 3px;
+    cursor: pointer;
+   padding-left: 0px; 
+   margin-left: 0px;
+}
+
+.sessions-list li.over
+{
+    color: Blue;
+}
+
+#search-div
+{
+    width: 100%;
+    margin: 20px auto;
+}
+
+#searchbox
+{
+    padding: 10px;
+    width: 85%;
+    font-size: 1.3em;
+    background: white url(http://i.imgur.com/LuVtLfp.jpg) left no-repeat;
+    padding-left: 32px;
+    border-color:Black;
+    border-width:2px;
+}
+
+.details-div
+{
+    height: 200px;
+    width:100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.loader
+{
+    margin-top:30px;
+    width:100%;
+    height:100%;
+    background-image: url(http://i.imgur.com/awIML3c.gif);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.formTable
+{
+    margin-top: 9px;
+}
+
+.hidden-div
+{
+    display: none;
+}
+
+.leftFormSummary
+{
+    font-weight:bolder;
+}

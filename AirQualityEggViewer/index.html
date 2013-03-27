@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">   
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>AirQualityEgg Viewer</title>
+  <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+  <link rel="stylesheet" type="text/css" href="css/aqe.css">
+  
+</head>
+  <body>
+    <div id="welcomeDiv" class="center">
+      <h1>AirQualityEgg Viewer</h1>
+      <p>With this viewer your are able to see all active <a target="_blank" href="http://airqualityegg.com/">AirQualityEggs (AQE)</a> around the globe. AQE is a community-led sensor network and each AQE provides measurements of temperature, humidity, nitrogen dioxide and carbon monoxide.</p>
+      <p>By clicking on an egg you get an live feed of the measurements. </p>
+      <p><img id="loading" src="images/ajax-loader.gif" alt="loading" /></p>
+      <p id="loading"></p>
+    </div>
+
+    <div id="mapDiv">
+    </div>
+
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="http://d23cj0cdvyoxg0.cloudfront.net/cosmjs-1.0.0.min.js"></script>
+      <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact"></script>
+      <script src="js/aqeviewer.js"></script>
+  </body>
+</html>

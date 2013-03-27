@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">   
+    <title>World Migration flows</title> 
+
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/tundra/tundra.css"> 
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dojox/grid/resources/Grid.css"> 
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dojox/grid/resources/tundraGrid.css"> 
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+    <script>var dojoConfig = { parseOnLoad:true };</script> 
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/"></script> 
+	<script type="text/javascript" src="js/challenge.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/challenge.css">
+  </head> 
+  <body class="tundra"> 
+    <div id="mainWindow" data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline',gutters:false"  style="width:100%; height:100%;">  
+      <div id="mapDiv" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'" style="margin:5px;"> 
+      		<span id="status" style='position:absolute;bottom:5px;'></span>
+      	<div id="titleBox"> 
+      		<div id="titleBoxTitle"> World Migrations Explorer </div>
+      		<div id="titleBoxText"> This application shows data about global migration flows. 
+      								Just click on a country, select the direction of migration and
+      								let our geoprocess color the map for you!
+      								All the information used in this app comes from <a href="http://tinyurl.com/bpdullu">The World Bank.</a>
+      		</div> 
+      	</div>
+        <div id="didyouBox">
+          <div id="didyouknowTitle"> Did you know...?</div>
+          <div id="didyouknowText"></div>
+        </div>
+        <div id="creditBox"> 
+        	Developed by mbenedito & igarcia  | <a href="http://www.geotec.uji.es/"> GEOTEC Research Group</a> | <a href="http://www.uji.es/UK/basic/&url=/CA/"> University Jaume I</a>.
+      	</div>
+      	<div id="tofromBox">
+      		<div id="tofromBoxTitle"> Discover where people are moving </div>      			
+        	<form id="tofromBoxForm">
+    			<input type="radio" data-dojo-type="dijit/form/RadioButton" checked name="tofrom" id="radioTwo" value="'0'"/> <label for="radioTwo">   From</label>
+    			<input type="radio" data-dojo-type="dijit/form/RadioButton" name="tofrom" id="radioOne" value="'1'"/> <label for="radioOne">   To</label>
+				<button id="gobutton" data-dojo-type="dijit/form/Button" type="button" onclick="findMigrations();"> Go!</button>
+			</form>
+        </div>
+        <div id="legendBox" style="display:none;">
+        <!--<div id="legendBox">-->
+        	<div id="legendBoxTitle">Legend</div>
+        	<div id="legendDiv" style="width:200px; height:100px;left: 30px"></div>
+        </div>     
+      	</div>
+      </div>  
+  </body> 
+</html>
